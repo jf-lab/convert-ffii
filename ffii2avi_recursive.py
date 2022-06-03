@@ -56,4 +56,4 @@ if __name__ == "__main__":
                 
     print('Conversion of %i files over!'%nbFiles)
     print("--- %.2f seconds elapsed ---" % (time.time() - start_time))
-    p.kill()
+    p.terminate()
